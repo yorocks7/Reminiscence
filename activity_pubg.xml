@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".pubg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/pubg"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Getting bored by sitting at home all day long during this dull lockdown period? Well, we have a perfect solution to spice up your monotonous life and let your adrenaline pump out at full speed once again. There is no better way other than our all-time craze. We are talking about PUBG, the thrilling 100 player battle royale where you will pick up your M416s and AKMs to clutch at your enemies, mount your 6X and 8X on your Kar98s and M24s and snipe your opponents hundreds of metres away, fight for the crates to get the AWM and M249 and stand till the end to enjoy the chicken dinner and win exciting prizes.
+
+On the occasion of REMINISCENCE, we cordially invite you to participate in this PUBG tournament and take your squad to achieve victory against players from many other colleges. No matter whether you are soloing or fighting alongside your squad, it will be a thrilling experience and will be worth remembering for a long time.
+
+Rules:
+
+The participants must have all four maps (Erangel, Miramar, Sanhok and Vikendi) downloaded.
+
+All matches will be in TPP format.
+
+The schedule of the matches will be announced one day before the event.
+
+For any kind of enquiry contact,
+Arkajit Ghosh - 8777030028\nRitam Sarkar - 9836165722
+\n\n
+" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:text="REGISTER"/>
+    </LinearLayout>
+
+</ScrollView>
