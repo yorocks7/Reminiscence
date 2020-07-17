@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:background="@color/events"
+    tools:context=".mcode">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/back"
+            android:src="@drawable/ic_arrow_back_black_24dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="@font/gentona"
+            android:textStyle="bold"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="10"
+            android:shadowColor="@android:color/white"
+            android:textSize="32dp"
+            android:text="M-CODE"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/mcode"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:justificationMode="inter_word"
+            android:textSize="18dp"
+            android:fontFamily="@font/sans_regular"
+            android:text="Learning to code is important no matter what you’re career ambitions are. Are you one of those who have a knack for various programming languages, love to design, write, and tests code for computer software or mobile applications? Or a beginner who has just entered the world of coding and need a platform to showcase their new found passion and love for coding?
+If so, then the Society of Student Metallurgists presents REMINISCENCE where we present you with a unique opportunity to announce your arrival to the world via a coding competition, i.e., M-CODE. Showcase your coding expertise among hundreds of students participating from all over the country. Global exposure and exciting prizes awaits you. So, what are you waiting for? Go register now for M-CODE and take a step further in your journey to become a proficient coder.
+\n\n
+" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:textSize="22dp"
+            android:paddingRight="30px"
+            android:paddingLeft="30px"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/black"
+            android:id="@+id/register"
+            android:text="REGISTER"/>
+    </LinearLayout>
+
+</ScrollView>
