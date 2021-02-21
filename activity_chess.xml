@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".chess">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/chess"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="“Chess doesn’t drive people mad, it keeps mad people sane.” – Bill Hartston.
+You’ve spent hours on “Ludo King “, hoping to reach your target faster than your opponents, but you’ve come to grow bored of it, since the only thing you do is roll a dice. To help you get rid of the boredom, Reminiscence brings you an online challenge, which is one of its kind. We present before you an opportunity to compete in another virtual board game, only less luck-dependent, and more brain-wracking. The online chess event of Reminiscence ’20, gives you an awesome chance to put your gyri and sulci in the driving seat. Dictate your infantry, cavalry, and navy and brainstorm your way to dethroning your opponent’s king. Put your strategic prowess into assessment, as this event, with its demand for sharp brain work, is sure to keep you at the edge of your seats.
+
+Rules:
+
+The tournament will be conducted on the “lichess” platform. Players can download the lichess app from the playstore or visit lichess.org to play in the tournament.
+
+The tornament will be conducted in a standard league format.
+
+There will be 1 or 2 rounds depending on participation.
+
+The timecontrol of the matches will be 10+0. In case of tie in the leaderboard, a 3+2 blitz will be played amongst the leaders.
+
+Players are requested to get accustomed to the lichess platform.
+
+For any kind of enquiry contact,
+Arkajit Ghosh - 8777030028
+Ritam Sarkar - 9836165722
+\n\n
+" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:text="REGISTER"/>
+    </LinearLayout>
+
+</ScrollView>

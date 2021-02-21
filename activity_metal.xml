@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:background="@android:color/holo_orange_light"
+    tools:context=".metal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="460dp"
+            android:src="@drawable/metal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Are you crazy for colour? Are you getting bored at home and want to present your vibrant ideas at poster designing? Not many can handle the blend of colours and have the grip on the topic, but here is your chance to show them what you got. We invite you to show us your insight into the vast field of metallurgy by presenting colourful and creative posters.
+
+
+The Society of Student Metallurgists presents REMINISCENCE where we bring forward to you the poster presentation competition. So what are you waiting for? Show your creativity to hundreds of students participating from all over INDIA and let your talent in this field flourish even more. Exciting prizes and lots of exposure awaits for you.
+
+Rules:
+
+Each team will consist of a maximum of 3 members.
+
+The subject of the poster presentation must be related to the field of metallurgy and materials engineering.
+
+Each team has to submit an abstract (not more than 350 words) before 10th July to ssm.iiests@gmail.com  .
+
+After your abstract has been submitted, you will be contacted for the preliminary rounds where you have to present your topic. The dates of the preliminary rounds will be between 13th-18th July.
+
+The presentation must not be more than 10 minutes which will be followed by question and answers.
+
+The poster must contain the following details: Title, Name of the team and its members, abstract, statement of research, methodology, results (analysis and interpetation), illustrations and acknowledgement.
+
+The best teams will qualify for the finals where you can present your topics in front of eminent speakers. The dates of the finals will be between 20th-24th July.
+
+If there is any change in the rules or event timeline, the participants will be notified at the earliest.
+
+In case of any discrepancies, the decision of the organizing committee is final.
+
+For any kind of enquiry contact,
+Arkajit Ghosh - 8777030028
+Ritam Sarkar - 9836165722
+\n\n
+" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35dp"
+            android:text="REGISTER"/>
+    </LinearLayout>
+
+</ScrollView>
